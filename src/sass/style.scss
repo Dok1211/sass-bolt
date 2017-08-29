@@ -1,10 +1,5 @@
 @import './variable';
 
-$text-color: #333;
-$conversion-color: #74cfae;
-$background-color-gray: #f2f2f2;
-$background-color-dark: #4e4e4e;
-
 .clearfix {
 	&:after {
 		content: '';
@@ -95,7 +90,7 @@ header {
 		text-align: right;
 		vertical-align: middle;
 		margin: 0 15px;
-		&-btn {
+		&__btn {
 			display: inline-block;
 			position: relative;
 			width: 20px;
@@ -105,7 +100,7 @@ header {
 			border-radius: 4px;
 		}
 
-		&-icon {
+		&__icon {
 			display: block;
 			position: absolute;
 			top: 50%;

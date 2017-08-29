@@ -82,7 +82,7 @@ header {
     text-align: right;
     vertical-align: middle;
     margin: 0 15px; }
-    .header__hamberger-btn {
+    .header__hamberger__btn {
       display: inline-block;
       position: relative;
       width: 20px;
@@ -90,7 +90,7 @@ header {
       padding: 10px;
       border: 1px solid #ddd;
       border-radius: 4px; }
-    .header__hamberger-icon {
+    .header__hamberger__icon {
       display: block;
       position: absolute;
       top: 50%;
@@ -99,7 +99,7 @@ header {
       height: 2px;
       margin: -1px 0 0 -10px;
       background-color: #ddd; }
-      .header__hamberger-icon:before, .header__hamberger-icon:after {
+      .header__hamberger__icon:before, .header__hamberger__icon:after {
         display: block;
         content: '';
         position: absolute;
@@ -107,9 +107,9 @@ header {
         width: 20px;
         height: 2px;
         background-color: #ddd; }
-      .header__hamberger-icon:before {
+      .header__hamberger__icon:before {
         margin-top: -6px; }
-      .header__hamberger-icon:after {
+      .header__hamberger__icon:after {
         margin-top: 4px; } }
 
 .theme {
